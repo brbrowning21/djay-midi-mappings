@@ -499,6 +499,30 @@
 			<key>midiMessageType</key>
 			<integer>3</integer>
 		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>musicLibrary.load3</string>
+			<key>midiChannel</key>
+			<integer>4</integer>
+			<key>midiData</key>
+			<integer>16</integer>
+			<key>midiMessageType</key>
+			<integer>1</integer>
+			<key>modifier</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>musicLibrary.load4</string>
+			<key>midiChannel</key>
+			<integer>4</integer>
+			<key>midiData</key>
+			<integer>17</integer>
+			<key>midiMessageType</key>
+			<integer>1</integer>
+			<key>modifier</key>
+			<true/>
+		</dict>
 	</array>
 	<key>editor</key>
 	<string>djay Pro-1.2.1</string>
