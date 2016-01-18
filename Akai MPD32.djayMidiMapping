@@ -8,7 +8,7 @@
 	<array>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable3</string>
+			<string>turntable3.skipForward1Beat</string>
 			<key>midiChannel</key>
 			<integer>0</integer>
 			<key>midiData</key>
@@ -18,7 +18,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable1</string>
+			<string>turntable1.skipForward1Beat</string>
 			<key>midiChannel</key>
 			<integer>0</integer>
 			<key>midiData</key>
@@ -28,7 +28,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable2</string>
+			<string>turntable2.skipForward1Beat</string>
 			<key>midiChannel</key>
 			<integer>0</integer>
 			<key>midiData</key>
@@ -38,7 +38,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable4</string>
+			<string>turntable4.skipForward1Beat</string>
 			<key>midiChannel</key>
 			<integer>0</integer>
 			<key>midiData</key>
@@ -48,7 +48,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable3</string>
+			<string>turntable3.skipBackward1Beat</string>
 			<key>midiChannel</key>
 			<integer>0</integer>
 			<key>midiData</key>
@@ -58,7 +58,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable1</string>
+			<string>turntable1.skipBackward1Beat</string>
 			<key>midiChannel</key>
 			<integer>0</integer>
 			<key>midiData</key>
@@ -68,7 +68,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable2</string>
+			<string>turntable2.skipBackward1Beat</string>
 			<key>midiChannel</key>
 			<integer>0</integer>
 			<key>midiData</key>
@@ -78,7 +78,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable4</string>
+			<string>turntable4.skipBackward1Beat</string>
 			<key>midiChannel</key>
 			<integer>0</integer>
 			<key>midiData</key>
