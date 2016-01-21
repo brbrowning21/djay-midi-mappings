@@ -367,7 +367,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable3</string>
+			<string>turntable3.bpmSync</string>
 			<key>midiChannel</key>
 			<integer>4</integer>
 			<key>midiData</key>
@@ -382,7 +382,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable3</string>
+			<string>turntable3.turntableIsSyncMaster</string>
 			<key>midiChannel</key>
 			<integer>4</integer>
 			<key>midiData</key>
@@ -397,7 +397,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable1</string>
+			<string>turntable1.bpmSync</string>
 			<key>midiChannel</key>
 			<integer>4</integer>
 			<key>midiData</key>
@@ -412,7 +412,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable1</string>
+			<string>turntable1.turntableIsSyncMaster</string>
 			<key>midiChannel</key>
 			<integer>4</integer>
 			<key>midiData</key>
@@ -427,7 +427,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable2</string>
+			<string>turntable2.bpmSync</string>
 			<key>midiChannel</key>
 			<integer>4</integer>
 			<key>midiData</key>
@@ -439,7 +439,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable2</string>
+			<string>turntable2.turntableIsSyncMaster</string>
 			<key>midiChannel</key>
 			<integer>4</integer>
 			<key>midiData</key>
@@ -454,7 +454,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable4</string>
+			<string>turntable4.bpmSync</string>
 			<key>midiChannel</key>
 			<integer>4</integer>
 			<key>midiData</key>
@@ -466,7 +466,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable4</string>
+			<string>turntable4.turntableIsSyncMaster</string>
 			<key>midiChannel</key>
 			<integer>4</integer>
 			<key>midiData</key>
