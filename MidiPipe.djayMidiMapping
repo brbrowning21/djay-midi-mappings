@@ -83,8 +83,6 @@
 			<integer>3</integer>
 			<key>rotaryAcceleration</key>
 			<integer>150</integer>
-			<key>rotarySensitivity</key>
-			<real>100</real>
 		</dict>
 		<dict>
 			<key>controlType</key>
@@ -101,8 +99,6 @@
 			<integer>3</integer>
 			<key>rotaryAcceleration</key>
 			<integer>150</integer>
-			<key>rotarySensitivity</key>
-			<real>100</real>
 		</dict>
 		<dict>
 			<key>controlType</key>
@@ -119,8 +115,6 @@
 			<integer>3</integer>
 			<key>rotaryAcceleration</key>
 			<integer>150</integer>
-			<key>rotarySensitivity</key>
-			<real>100</real>
 		</dict>
 		<dict>
 			<key>controlType</key>
@@ -137,8 +131,6 @@
 			<integer>3</integer>
 			<key>rotaryAcceleration</key>
 			<integer>150</integer>
-			<key>rotarySensitivity</key>
-			<real>100</real>
 		</dict>
 	</array>
 	<key>editor</key>
