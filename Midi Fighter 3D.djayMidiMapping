@@ -628,7 +628,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable3</string>
+			<string>turntable3.fxBounceFlanger</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -638,7 +638,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable1</string>
+			<string>turntable1.fxBounceFlanger</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -648,7 +648,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable2</string>
+			<string>turntable2.fxBounceFlanger</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -658,7 +658,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable4</string>
+			<string>turntable4.fxBounceFlanger</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -668,7 +668,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable3</string>
+			<string>turntable3.censor</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -678,7 +678,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable1</string>
+			<string>turntable1.censor</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -688,7 +688,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable2</string>
+			<string>turntable2.censor</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -698,7 +698,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable4</string>
+			<string>turntable4.censor</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -707,8 +707,10 @@
 			<integer>1</integer>
 		</dict>
 		<dict>
+			<key>buttonMode</key>
+			<string>hold</string>
 			<key>keyPath</key>
-			<string>turntable3</string>
+			<string>turntable3.lowEQKill</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -717,8 +719,10 @@
 			<integer>1</integer>
 		</dict>
 		<dict>
+			<key>buttonMode</key>
+			<string>hold</string>
 			<key>keyPath</key>
-			<string>turntable1</string>
+			<string>turntable1.lowEQKill</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -727,8 +731,10 @@
 			<integer>1</integer>
 		</dict>
 		<dict>
+			<key>buttonMode</key>
+			<string>hold</string>
 			<key>keyPath</key>
-			<string>turntable2</string>
+			<string>turntable2.lowEQKill</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -737,8 +743,10 @@
 			<integer>1</integer>
 		</dict>
 		<dict>
+			<key>buttonMode</key>
+			<string>hold</string>
 			<key>keyPath</key>
-			<string>turntable4</string>
+			<string>turntable4.lowEQKill</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -747,8 +755,10 @@
 			<integer>1</integer>
 		</dict>
 		<dict>
+			<key>buttonMode</key>
+			<string>hold</string>
 			<key>keyPath</key>
-			<string>turntable3</string>
+			<string>turntable3.highEQKill</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -757,8 +767,10 @@
 			<integer>1</integer>
 		</dict>
 		<dict>
+			<key>buttonMode</key>
+			<string>hold</string>
 			<key>keyPath</key>
-			<string>turntable1</string>
+			<string>turntable1.highEQKill</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -767,8 +779,10 @@
 			<integer>1</integer>
 		</dict>
 		<dict>
+			<key>buttonMode</key>
+			<string>hold</string>
 			<key>keyPath</key>
-			<string>turntable2</string>
+			<string>turntable2.highEQKill</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -778,7 +792,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable4</string>
+			<string>turntable4.highEQKill</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
