@@ -408,7 +408,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable4</string>
+			<string>turntable3</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -418,7 +418,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable4</string>
+			<string>turntable1</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -428,7 +428,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable4</string>
+			<string>turntable2</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -448,7 +448,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable4</string>
+			<string>turntable3</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -458,7 +458,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable4</string>
+			<string>turntable1</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -468,7 +468,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable4</string>
+			<string>turntable2</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -488,7 +488,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable4</string>
+			<string>turntable3</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -498,7 +498,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable4</string>
+			<string>turntable1</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -508,7 +508,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable4</string>
+			<string>turntable2</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -528,7 +528,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable4</string>
+			<string>turntable3</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -538,7 +538,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable4</string>
+			<string>turntable1</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -548,7 +548,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable4</string>
+			<string>turntable2</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -734,7 +734,7 @@
 			<key>midiData</key>
 			<integer>0</integer>
 			<key>midiMessageType</key>
-			<integer>1</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>keyPath</key>
@@ -744,7 +744,7 @@
 			<key>midiData</key>
 			<integer>1</integer>
 			<key>midiMessageType</key>
-			<integer>1</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>keyPath</key>
@@ -754,7 +754,7 @@
 			<key>midiData</key>
 			<integer>2</integer>
 			<key>midiMessageType</key>
-			<integer>1</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>keyPath</key>
@@ -763,6 +763,66 @@
 			<integer>3</integer>
 			<key>midiData</key>
 			<integer>3</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable4</string>
+			<key>midiChannel</key>
+			<integer>3</integer>
+			<key>midiData</key>
+			<integer>4</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable4</string>
+			<key>midiChannel</key>
+			<integer>3</integer>
+			<key>midiData</key>
+			<integer>5</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable4</string>
+			<key>midiChannel</key>
+			<integer>3</integer>
+			<key>midiData</key>
+			<integer>6</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable4</string>
+			<key>midiChannel</key>
+			<integer>3</integer>
+			<key>midiData</key>
+			<integer>7</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable4</string>
+			<key>midiChannel</key>
+			<integer>3</integer>
+			<key>midiData</key>
+			<integer>18</integer>
+			<key>midiMessageType</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable4</string>
+			<key>midiChannel</key>
+			<integer>3</integer>
+			<key>midiData</key>
+			<integer>17</integer>
 			<key>midiMessageType</key>
 			<integer>1</integer>
 		</dict>
