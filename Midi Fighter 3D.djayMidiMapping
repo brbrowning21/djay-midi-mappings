@@ -295,6 +295,11 @@
 			<integer>52</integer>
 			<key>midiMessageType</key>
 			<integer>1</integer>
+			<key>output</key>
+			<dict>
+				<key>midiMaxValue</key>
+				<integer>18</integer>
+			</dict>
 		</dict>
 		<dict>
 			<key>keyPath</key>
@@ -305,6 +310,11 @@
 			<integer>53</integer>
 			<key>midiMessageType</key>
 			<integer>1</integer>
+			<key>output</key>
+			<dict>
+				<key>midiMaxValue</key>
+				<integer>18</integer>
+			</dict>
 		</dict>
 		<dict>
 			<key>keyPath</key>
@@ -315,6 +325,11 @@
 			<integer>54</integer>
 			<key>midiMessageType</key>
 			<integer>1</integer>
+			<key>output</key>
+			<dict>
+				<key>midiMaxValue</key>
+				<integer>18</integer>
+			</dict>
 		</dict>
 		<dict>
 			<key>keyPath</key>
@@ -325,6 +340,11 @@
 			<integer>55</integer>
 			<key>midiMessageType</key>
 			<integer>1</integer>
+			<key>output</key>
+			<dict>
+				<key>midiMaxValue</key>
+				<integer>18</integer>
+			</dict>
 		</dict>
 		<dict>
 			<key>keyPath</key>
