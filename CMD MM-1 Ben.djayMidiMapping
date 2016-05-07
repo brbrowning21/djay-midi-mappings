@@ -162,7 +162,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>mixer.crossfade</string>
+			<string>turntable1.crossfade</string>
 			<key>midiChannel</key>
 			<integer>4</integer>
 			<key>midiData</key>
