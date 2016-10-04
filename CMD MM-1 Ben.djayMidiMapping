@@ -162,7 +162,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable1.crossfade</string>
+			<string>mixer.crossfade</string>
 			<key>midiChannel</key>
 			<integer>4</integer>
 			<key>midiData</key>
@@ -669,7 +669,7 @@
 		</dict>
 	</array>
 	<key>editor</key>
-	<string>djay Pro-1.2.1</string>
+	<string>djay Pro-1.3.1</string>
 	<key>endpointName</key>
 	<string>CMD MM-1</string>
 	<key>schemeVersion</key>
