@@ -565,6 +565,10 @@
 			<integer>12</integer>
 			<key>midiMessageType</key>
 			<integer>3</integer>
+			<key>rotaryAcceleration</key>
+			<integer>150</integer>
+			<key>rotarySensitivity</key>
+			<real>180</real>
 		</dict>
 		<dict>
 			<key>controlType</key>
@@ -601,8 +605,10 @@
 			<integer>13</integer>
 			<key>midiMessageType</key>
 			<integer>3</integer>
+			<key>rotaryAcceleration</key>
+			<integer>150</integer>
 			<key>rotarySensitivity</key>
-			<real>133</real>
+			<real>180</real>
 		</dict>
 		<dict>
 			<key>controlType</key>
@@ -639,6 +645,10 @@
 			<integer>14</integer>
 			<key>midiMessageType</key>
 			<integer>3</integer>
+			<key>rotaryAcceleration</key>
+			<integer>150</integer>
+			<key>rotarySensitivity</key>
+			<real>180</real>
 		</dict>
 		<dict>
 			<key>controlType</key>
@@ -677,6 +687,10 @@
 			<integer>15</integer>
 			<key>midiMessageType</key>
 			<integer>3</integer>
+			<key>rotaryAcceleration</key>
+			<integer>150</integer>
+			<key>rotarySensitivity</key>
+			<real>180</real>
 		</dict>
 		<dict>
 			<key>controlType</key>
