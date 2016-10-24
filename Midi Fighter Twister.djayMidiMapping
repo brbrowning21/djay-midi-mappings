@@ -53,6 +53,8 @@
 			<integer>1</integer>
 			<key>midiMessageType</key>
 			<integer>3</integer>
+			<key>output</key>
+			<dict/>
 		</dict>
 		<dict>
 			<key>controlType</key>
@@ -77,24 +79,28 @@
 			<integer>1</integer>
 			<key>midiMessageType</key>
 			<integer>3</integer>
+			<key>output</key>
+			<dict/>
 		</dict>
 		<dict>
 			<key>controlType</key>
 			<string>rotary-64</string>
 			<key>keyPath</key>
-			<string>turntable2</string>
+			<string>turntable2.autoLoopDurationRotary</string>
 			<key>midiChannel</key>
 			<integer>0</integer>
 			<key>midiData</key>
 			<integer>2</integer>
 			<key>midiMessageType</key>
 			<integer>3</integer>
+			<key>rotarySensitivity</key>
+			<real>117</real>
 		</dict>
 		<dict>
 			<key>controlType</key>
 			<string>button</string>
 			<key>keyPath</key>
-			<string>turntable2</string>
+			<string>turntable2.autoLoopOnOff</string>
 			<key>midiChannel</key>
 			<integer>1</integer>
 			<key>midiData</key>
@@ -161,6 +167,13 @@
 			<integer>4</integer>
 			<key>midiMessageType</key>
 			<integer>3</integer>
+			<key>output</key>
+			<dict>
+				<key>flipped</key>
+				<true/>
+				<key>midiChannel</key>
+				<integer>1</integer>
+			</dict>
 			<key>rotarySensitivity</key>
 			<real>20</real>
 		</dict>
@@ -199,6 +212,13 @@
 			<integer>5</integer>
 			<key>midiMessageType</key>
 			<integer>3</integer>
+			<key>output</key>
+			<dict>
+				<key>flipped</key>
+				<true/>
+				<key>midiChannel</key>
+				<integer>1</integer>
+			</dict>
 			<key>rotarySensitivity</key>
 			<real>20</real>
 		</dict>
@@ -237,6 +257,13 @@
 			<integer>6</integer>
 			<key>midiMessageType</key>
 			<integer>3</integer>
+			<key>output</key>
+			<dict>
+				<key>flipped</key>
+				<true/>
+				<key>midiChannel</key>
+				<integer>1</integer>
+			</dict>
 			<key>rotarySensitivity</key>
 			<real>20</real>
 		</dict>
@@ -275,6 +302,13 @@
 			<integer>7</integer>
 			<key>midiMessageType</key>
 			<integer>3</integer>
+			<key>output</key>
+			<dict>
+				<key>flipped</key>
+				<true/>
+				<key>midiChannel</key>
+				<integer>1</integer>
+			</dict>
 			<key>rotarySensitivity</key>
 			<real>20</real>
 		</dict>
@@ -330,7 +364,7 @@
 			<key>controlType</key>
 			<string>rotary-64</string>
 			<key>keyPath</key>
-			<string>turntable3.jogSeekMove</string>
+			<string>turntable3.skipRotary</string>
 			<key>midiChannel</key>
 			<integer>4</integer>
 			<key>midiData</key>
@@ -366,7 +400,7 @@
 			<key>controlType</key>
 			<string>rotary-64</string>
 			<key>keyPath</key>
-			<string>turntable1.jogSeekMove</string>
+			<string>turntable1.skipRotary</string>
 			<key>midiChannel</key>
 			<integer>4</integer>
 			<key>midiData</key>
@@ -402,7 +436,7 @@
 			<key>controlType</key>
 			<string>rotary-64</string>
 			<key>keyPath</key>
-			<string>turntable2.jogSeekMove</string>
+			<string>turntable2.skipRotary</string>
 			<key>midiChannel</key>
 			<integer>4</integer>
 			<key>midiData</key>
@@ -438,7 +472,7 @@
 			<key>controlType</key>
 			<string>rotary-64</string>
 			<key>keyPath</key>
-			<string>turntable4.jogSeekMove</string>
+			<string>turntable4.skipRotary</string>
 			<key>midiChannel</key>
 			<integer>4</integer>
 			<key>midiData</key>
@@ -493,6 +527,8 @@
 			<integer>13</integer>
 			<key>midiMessageType</key>
 			<integer>3</integer>
+			<key>rotarySensitivity</key>
+			<real>133</real>
 		</dict>
 		<dict>
 			<key>controlType</key>
@@ -534,13 +570,15 @@
 			<key>controlType</key>
 			<string>button</string>
 			<key>keyPath</key>
-			<string>turntable2</string>
+			<string>turntable2.transitionLeft</string>
 			<key>midiChannel</key>
 			<integer>1</integer>
 			<key>midiData</key>
 			<integer>14</integer>
 			<key>midiMessageType</key>
 			<integer>3</integer>
+			<key>rotarySensitivity</key>
+			<real>109</real>
 		</dict>
 		<dict>
 			<key>controlType</key>
@@ -570,13 +608,39 @@
 			<key>controlType</key>
 			<string>button</string>
 			<key>keyPath</key>
-			<string>turntable4</string>
+			<string>turntable2.playPause</string>
 			<key>midiChannel</key>
 			<integer>1</integer>
 			<key>midiData</key>
 			<integer>15</integer>
 			<key>midiMessageType</key>
 			<integer>3</integer>
+			<key>output</key>
+			<dict>
+				<key>midiMaxValue</key>
+				<integer>9</integer>
+				<key>midiMinValue</key>
+				<integer>9</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>controlType</key>
+			<string>button</string>
+			<key>keyPath</key>
+			<string>turntable2</string>
+			<key>midiChannel</key>
+			<integer>1</integer>
+			<key>midiData</key>
+			<integer>15</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+			<key>output</key>
+			<dict>
+				<key>midiChannel</key>
+				<integer>2</integer>
+				<key>midiMinValue</key>
+				<integer>9</integer>
+			</dict>
 		</dict>
 		<dict>
 			<key>controlType</key>
