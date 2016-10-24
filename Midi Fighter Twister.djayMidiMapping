@@ -154,19 +154,21 @@
 			<key>controlType</key>
 			<string>rotary-64</string>
 			<key>keyPath</key>
-			<string>turntable3</string>
+			<string>turntable3.speed</string>
 			<key>midiChannel</key>
 			<integer>0</integer>
 			<key>midiData</key>
 			<integer>4</integer>
 			<key>midiMessageType</key>
 			<integer>3</integer>
+			<key>rotarySensitivity</key>
+			<real>20</real>
 		</dict>
 		<dict>
 			<key>controlType</key>
 			<string>button</string>
 			<key>keyPath</key>
-			<string>turntable3</string>
+			<string>turntable3.resetSpeed</string>
 			<key>midiChannel</key>
 			<integer>1</integer>
 			<key>midiData</key>
@@ -178,7 +180,7 @@
 			<key>controlType</key>
 			<string>rotary-64</string>
 			<key>keyPath</key>
-			<string>turntable3</string>
+			<string>turntable3.sectionRotary</string>
 			<key>midiChannel</key>
 			<integer>4</integer>
 			<key>midiData</key>
@@ -190,33 +192,23 @@
 			<key>controlType</key>
 			<string>rotary-64</string>
 			<key>keyPath</key>
-			<string>turntable1</string>
+			<string>turntable1.speed</string>
 			<key>midiChannel</key>
 			<integer>0</integer>
 			<key>midiData</key>
 			<integer>5</integer>
 			<key>midiMessageType</key>
 			<integer>3</integer>
+			<key>rotarySensitivity</key>
+			<real>20</real>
 		</dict>
 		<dict>
 			<key>controlType</key>
 			<string>button</string>
 			<key>keyPath</key>
-			<string>turntable1</string>
+			<string>turntable1.resetSpeed</string>
 			<key>midiChannel</key>
 			<integer>1</integer>
-			<key>midiData</key>
-			<integer>5</integer>
-			<key>midiMessageType</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>controlType</key>
-			<string>rotary-64</string>
-			<key>keyPath</key>
-			<string>turntable1</string>
-			<key>midiChannel</key>
-			<integer>4</integer>
 			<key>midiData</key>
 			<integer>5</integer>
 			<key>midiMessageType</key>
@@ -226,19 +218,33 @@
 			<key>controlType</key>
 			<string>rotary-64</string>
 			<key>keyPath</key>
-			<string>turntable2</string>
+			<string>turntable1.libraryRotary</string>
+			<key>midiChannel</key>
+			<integer>4</integer>
+			<key>midiData</key>
+			<integer>5</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>controlType</key>
+			<string>rotary-64</string>
+			<key>keyPath</key>
+			<string>turntable2.speed</string>
 			<key>midiChannel</key>
 			<integer>0</integer>
 			<key>midiData</key>
 			<integer>6</integer>
 			<key>midiMessageType</key>
 			<integer>3</integer>
+			<key>rotarySensitivity</key>
+			<real>20</real>
 		</dict>
 		<dict>
 			<key>controlType</key>
 			<string>button</string>
 			<key>keyPath</key>
-			<string>turntable2</string>
+			<string>turntable2.resetSpeed</string>
 			<key>midiChannel</key>
 			<integer>1</integer>
 			<key>midiData</key>
@@ -262,19 +268,21 @@
 			<key>controlType</key>
 			<string>rotary-64</string>
 			<key>keyPath</key>
-			<string>turntable4</string>
+			<string>turntable4.speed</string>
 			<key>midiChannel</key>
 			<integer>0</integer>
 			<key>midiData</key>
 			<integer>7</integer>
 			<key>midiMessageType</key>
 			<integer>3</integer>
+			<key>rotarySensitivity</key>
+			<real>20</real>
 		</dict>
 		<dict>
 			<key>controlType</key>
 			<string>button</string>
 			<key>keyPath</key>
-			<string>turntable4</string>
+			<string>turntable4.resetSpeed</string>
 			<key>midiChannel</key>
 			<integer>1</integer>
 			<key>midiData</key>
@@ -298,7 +306,7 @@
 			<key>controlType</key>
 			<string>rotary-64</string>
 			<key>keyPath</key>
-			<string>turntable3</string>
+			<string>turntable3.scratchingMove</string>
 			<key>midiChannel</key>
 			<integer>0</integer>
 			<key>midiData</key>
@@ -322,7 +330,7 @@
 			<key>controlType</key>
 			<string>rotary-64</string>
 			<key>keyPath</key>
-			<string>turntable3</string>
+			<string>turntable3.jogSeekMove</string>
 			<key>midiChannel</key>
 			<integer>4</integer>
 			<key>midiData</key>
@@ -334,7 +342,7 @@
 			<key>controlType</key>
 			<string>rotary-64</string>
 			<key>keyPath</key>
-			<string>turntable1</string>
+			<string>turntable1.scratchingMove</string>
 			<key>midiChannel</key>
 			<integer>0</integer>
 			<key>midiData</key>
@@ -358,7 +366,7 @@
 			<key>controlType</key>
 			<string>rotary-64</string>
 			<key>keyPath</key>
-			<string>turntable1</string>
+			<string>turntable1.jogSeekMove</string>
 			<key>midiChannel</key>
 			<integer>4</integer>
 			<key>midiData</key>
@@ -370,7 +378,7 @@
 			<key>controlType</key>
 			<string>rotary-64</string>
 			<key>keyPath</key>
-			<string>turntable2</string>
+			<string>turntable2.scratchingMove</string>
 			<key>midiChannel</key>
 			<integer>0</integer>
 			<key>midiData</key>
@@ -394,7 +402,7 @@
 			<key>controlType</key>
 			<string>rotary-64</string>
 			<key>keyPath</key>
-			<string>turntable2</string>
+			<string>turntable2.jogSeekMove</string>
 			<key>midiChannel</key>
 			<integer>4</integer>
 			<key>midiData</key>
@@ -406,7 +414,7 @@
 			<key>controlType</key>
 			<string>rotary-64</string>
 			<key>keyPath</key>
-			<string>turntable4</string>
+			<string>turntable4.scratchingMove</string>
 			<key>midiChannel</key>
 			<integer>0</integer>
 			<key>midiData</key>
@@ -430,7 +438,7 @@
 			<key>controlType</key>
 			<string>rotary-64</string>
 			<key>keyPath</key>
-			<string>turntable4</string>
+			<string>turntable4.jogSeekMove</string>
 			<key>midiChannel</key>
 			<integer>4</integer>
 			<key>midiData</key>
