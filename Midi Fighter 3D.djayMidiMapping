@@ -16,10 +16,7 @@
 			<key>midiMessageType</key>
 			<integer>1</integer>
 			<key>output</key>
-			<dict>
-				<key>midiMaxValue</key>
-				<integer>61</integer>
-			</dict>
+			<dict/>
 		</dict>
 		<dict>
 			<key>keyPath</key>
@@ -31,10 +28,7 @@
 			<key>midiMessageType</key>
 			<integer>1</integer>
 			<key>output</key>
-			<dict>
-				<key>midiMaxValue</key>
-				<integer>61</integer>
-			</dict>
+			<dict/>
 		</dict>
 		<dict>
 			<key>keyPath</key>
@@ -46,10 +40,7 @@
 			<key>midiMessageType</key>
 			<integer>1</integer>
 			<key>output</key>
-			<dict>
-				<key>midiMaxValue</key>
-				<integer>61</integer>
-			</dict>
+			<dict/>
 		</dict>
 		<dict>
 			<key>keyPath</key>
@@ -61,10 +52,7 @@
 			<key>midiMessageType</key>
 			<integer>1</integer>
 			<key>output</key>
-			<dict>
-				<key>midiMaxValue</key>
-				<integer>61</integer>
-			</dict>
+			<dict/>
 		</dict>
 		<dict>
 			<key>keyPath</key>
@@ -76,10 +64,7 @@
 			<key>midiMessageType</key>
 			<integer>1</integer>
 			<key>output</key>
-			<dict>
-				<key>midiMaxValue</key>
-				<integer>37</integer>
-			</dict>
+			<dict/>
 		</dict>
 		<dict>
 			<key>keyPath</key>
@@ -91,10 +76,7 @@
 			<key>midiMessageType</key>
 			<integer>1</integer>
 			<key>output</key>
-			<dict>
-				<key>midiMaxValue</key>
-				<integer>37</integer>
-			</dict>
+			<dict/>
 		</dict>
 		<dict>
 			<key>keyPath</key>
@@ -106,10 +88,7 @@
 			<key>midiMessageType</key>
 			<integer>1</integer>
 			<key>output</key>
-			<dict>
-				<key>midiMaxValue</key>
-				<integer>37</integer>
-			</dict>
+			<dict/>
 		</dict>
 		<dict>
 			<key>keyPath</key>
@@ -121,10 +100,7 @@
 			<key>midiMessageType</key>
 			<integer>1</integer>
 			<key>output</key>
-			<dict>
-				<key>midiMaxValue</key>
-				<integer>37</integer>
-			</dict>
+			<dict/>
 		</dict>
 		<dict>
 			<key>keyPath</key>
@@ -136,10 +112,7 @@
 			<key>midiMessageType</key>
 			<integer>1</integer>
 			<key>output</key>
-			<dict>
-				<key>midiMaxValue</key>
-				<integer>25</integer>
-			</dict>
+			<dict/>
 		</dict>
 		<dict>
 			<key>keyPath</key>
@@ -151,10 +124,7 @@
 			<key>midiMessageType</key>
 			<integer>1</integer>
 			<key>output</key>
-			<dict>
-				<key>midiMaxValue</key>
-				<integer>25</integer>
-			</dict>
+			<dict/>
 		</dict>
 		<dict>
 			<key>keyPath</key>
@@ -166,10 +136,7 @@
 			<key>midiMessageType</key>
 			<integer>1</integer>
 			<key>output</key>
-			<dict>
-				<key>midiMaxValue</key>
-				<integer>25</integer>
-			</dict>
+			<dict/>
 		</dict>
 		<dict>
 			<key>keyPath</key>
@@ -181,10 +148,7 @@
 			<key>midiMessageType</key>
 			<integer>1</integer>
 			<key>output</key>
-			<dict>
-				<key>midiMaxValue</key>
-				<integer>25</integer>
-			</dict>
+			<dict/>
 		</dict>
 		<dict>
 			<key>keyPath</key>
@@ -196,10 +160,7 @@
 			<key>midiMessageType</key>
 			<integer>1</integer>
 			<key>output</key>
-			<dict>
-				<key>midiMaxValue</key>
-				<integer>13</integer>
-			</dict>
+			<dict/>
 		</dict>
 		<dict>
 			<key>keyPath</key>
@@ -221,10 +182,7 @@
 			<key>midiMessageType</key>
 			<integer>1</integer>
 			<key>output</key>
-			<dict>
-				<key>midiMaxValue</key>
-				<integer>13</integer>
-			</dict>
+			<dict/>
 		</dict>
 		<dict>
 			<key>keyPath</key>
@@ -246,10 +204,7 @@
 			<key>midiMessageType</key>
 			<integer>1</integer>
 			<key>output</key>
-			<dict>
-				<key>midiMaxValue</key>
-				<integer>13</integer>
-			</dict>
+			<dict/>
 		</dict>
 		<dict>
 			<key>keyPath</key>
@@ -271,10 +226,7 @@
 			<key>midiMessageType</key>
 			<integer>1</integer>
 			<key>output</key>
-			<dict>
-				<key>midiMaxValue</key>
-				<integer>13</integer>
-			</dict>
+			<dict/>
 		</dict>
 		<dict>
 			<key>keyPath</key>
