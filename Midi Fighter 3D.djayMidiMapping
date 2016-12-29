@@ -420,7 +420,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable3</string>
+			<string>application.modifier</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -430,17 +430,19 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable1</string>
+			<string>turntable1.resetFilter</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
 			<integer>69</integer>
 			<key>midiMessageType</key>
 			<integer>1</integer>
+			<key>output</key>
+			<dict/>
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable2</string>
+			<string>application.modifier</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -450,17 +452,19 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable4</string>
+			<string>turntable2.resetFilter</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
 			<integer>71</integer>
 			<key>midiMessageType</key>
 			<integer>1</integer>
+			<key>output</key>
+			<dict/>
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable3</string>
+			<string>turntable1.fxBounceLowPassEcho</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -470,7 +474,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable1</string>
+			<string>turntable1.fxBounceHighPassEcho</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -480,7 +484,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable2</string>
+			<string>turntable2.fxBounceLowPassEcho</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -490,7 +494,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable4</string>
+			<string>turntable2.fxBounceHighPassEcho</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -500,7 +504,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable3</string>
+			<string>turntable1.fxBounceFlanger</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -510,7 +514,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable1</string>
+			<string>turntable1.fxBounceBitCrusher</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -520,7 +524,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable2</string>
+			<string>turntable2.fxBounceFlanger</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -530,7 +534,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable4</string>
+			<string>turntable2.fxBounceBitCrusher</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -540,7 +544,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable3</string>
+			<string>turntable1.fxBounceEchoExtreme</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -550,7 +554,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable1</string>
+			<string>turntable1.fxBounceEchoCensor</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -560,7 +564,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable2</string>
+			<string>turntable2.fxBounceEchoExtreme</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -570,7 +574,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable4</string>
+			<string>turntable2.fxBounceEchoCensor</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -754,7 +758,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable4</string>
+			<string>turntable1</string>
 			<key>midiChannel</key>
 			<integer>3</integer>
 			<key>midiData</key>
@@ -774,7 +778,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable4</string>
+			<string>turntable2.filter</string>
 			<key>midiChannel</key>
 			<integer>3</integer>
 			<key>midiData</key>
@@ -794,7 +798,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable4</string>
+			<string>turntable1</string>
 			<key>midiChannel</key>
 			<integer>3</integer>
 			<key>midiData</key>
@@ -814,7 +818,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable4</string>
+			<string>turntable2</string>
 			<key>midiChannel</key>
 			<integer>3</integer>
 			<key>midiData</key>
@@ -851,6 +855,532 @@
 			<integer>18</integer>
 			<key>midiMessageType</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable1.bounceLoop05BeatInterval</string>
+			<key>midiChannel</key>
+			<integer>2</integer>
+			<key>midiData</key>
+			<integer>80</integer>
+			<key>midiMessageType</key>
+			<integer>1</integer>
+			<key>modifier</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable1.bounceLoop00625BeatInterval</string>
+			<key>midiChannel</key>
+			<integer>2</integer>
+			<key>midiData</key>
+			<integer>81</integer>
+			<key>midiMessageType</key>
+			<integer>1</integer>
+			<key>modifier</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2.bounceLoop05BeatInterval</string>
+			<key>midiChannel</key>
+			<integer>2</integer>
+			<key>midiData</key>
+			<integer>82</integer>
+			<key>midiMessageType</key>
+			<integer>1</integer>
+			<key>modifier</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2.bounceLoop00625BeatInterval</string>
+			<key>midiChannel</key>
+			<integer>2</integer>
+			<key>midiData</key>
+			<integer>83</integer>
+			<key>midiMessageType</key>
+			<integer>1</integer>
+			<key>modifier</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable1.bounceLoop1BeatInterval</string>
+			<key>midiChannel</key>
+			<integer>2</integer>
+			<key>midiData</key>
+			<integer>76</integer>
+			<key>midiMessageType</key>
+			<integer>1</integer>
+			<key>modifier</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable1.bounceLoop0125BeatInterval</string>
+			<key>midiChannel</key>
+			<integer>2</integer>
+			<key>midiData</key>
+			<integer>77</integer>
+			<key>midiMessageType</key>
+			<integer>1</integer>
+			<key>modifier</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2.bounceLoop1BeatInterval</string>
+			<key>midiChannel</key>
+			<integer>2</integer>
+			<key>midiData</key>
+			<integer>78</integer>
+			<key>midiMessageType</key>
+			<integer>1</integer>
+			<key>modifier</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2.bounceLoop0125BeatInterval</string>
+			<key>midiChannel</key>
+			<integer>2</integer>
+			<key>midiData</key>
+			<integer>79</integer>
+			<key>midiMessageType</key>
+			<integer>1</integer>
+			<key>modifier</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable1.bounceLoop2BeatInterval</string>
+			<key>midiChannel</key>
+			<integer>2</integer>
+			<key>midiData</key>
+			<integer>72</integer>
+			<key>midiMessageType</key>
+			<integer>1</integer>
+			<key>modifier</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable1.bounceLoop025BeatInterval</string>
+			<key>midiChannel</key>
+			<integer>2</integer>
+			<key>midiData</key>
+			<integer>73</integer>
+			<key>midiMessageType</key>
+			<integer>1</integer>
+			<key>modifier</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2.bounceLoop2BeatInterval</string>
+			<key>midiChannel</key>
+			<integer>2</integer>
+			<key>midiData</key>
+			<integer>74</integer>
+			<key>midiMessageType</key>
+			<integer>1</integer>
+			<key>modifier</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2.bounceLoop025BeatInterval</string>
+			<key>midiChannel</key>
+			<integer>2</integer>
+			<key>midiData</key>
+			<integer>75</integer>
+			<key>midiMessageType</key>
+			<integer>1</integer>
+			<key>modifier</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2</string>
+			<key>midiChannel</key>
+			<integer>3</integer>
+			<key>midiData</key>
+			<integer>0</integer>
+			<key>midiMessageType</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2</string>
+			<key>midiChannel</key>
+			<integer>3</integer>
+			<key>midiData</key>
+			<integer>3</integer>
+			<key>midiMessageType</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2</string>
+			<key>midiChannel</key>
+			<integer>3</integer>
+			<key>midiData</key>
+			<integer>2</integer>
+			<key>midiMessageType</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2</string>
+			<key>midiChannel</key>
+			<integer>3</integer>
+			<key>midiData</key>
+			<integer>34</integer>
+			<key>midiMessageType</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2</string>
+			<key>midiChannel</key>
+			<integer>3</integer>
+			<key>midiData</key>
+			<integer>2</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+			<key>modifier</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2</string>
+			<key>midiChannel</key>
+			<integer>3</integer>
+			<key>midiData</key>
+			<integer>6</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+			<key>modifier</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2</string>
+			<key>midiChannel</key>
+			<integer>4</integer>
+			<key>midiData</key>
+			<integer>71</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+			<key>modifier</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2</string>
+			<key>midiChannel</key>
+			<integer>5</integer>
+			<key>midiData</key>
+			<integer>71</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+			<key>modifier</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2</string>
+			<key>midiChannel</key>
+			<integer>4</integer>
+			<key>midiData</key>
+			<integer>83</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+			<key>modifier</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2</string>
+			<key>midiChannel</key>
+			<integer>4</integer>
+			<key>midiData</key>
+			<integer>79</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+			<key>modifier</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2</string>
+			<key>midiChannel</key>
+			<integer>3</integer>
+			<key>midiData</key>
+			<integer>17</integer>
+			<key>midiMessageType</key>
+			<integer>0</integer>
+			<key>modifier</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2</string>
+			<key>midiChannel</key>
+			<integer>4</integer>
+			<key>midiData</key>
+			<integer>75</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+			<key>modifier</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2</string>
+			<key>midiChannel</key>
+			<integer>5</integer>
+			<key>midiData</key>
+			<integer>75</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+			<key>modifier</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>controlType</key>
+			<string>rotary</string>
+			<key>keyPath</key>
+			<string>turntable2</string>
+			<key>midiChannel</key>
+			<integer>5</integer>
+			<key>midiData</key>
+			<integer>71</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2</string>
+			<key>midiChannel</key>
+			<integer>5</integer>
+			<key>midiData</key>
+			<integer>75</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2</string>
+			<key>midiChannel</key>
+			<integer>4</integer>
+			<key>midiData</key>
+			<integer>70</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+			<key>modifier</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2</string>
+			<key>midiChannel</key>
+			<integer>5</integer>
+			<key>midiData</key>
+			<integer>70</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+			<key>modifier</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2</string>
+			<key>midiChannel</key>
+			<integer>5</integer>
+			<key>midiData</key>
+			<integer>70</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2</string>
+			<key>midiChannel</key>
+			<integer>4</integer>
+			<key>midiData</key>
+			<integer>69</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+			<key>modifier</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2</string>
+			<key>midiChannel</key>
+			<integer>5</integer>
+			<key>midiData</key>
+			<integer>69</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+			<key>modifier</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2</string>
+			<key>midiChannel</key>
+			<integer>5</integer>
+			<key>midiData</key>
+			<integer>69</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2</string>
+			<key>midiChannel</key>
+			<integer>4</integer>
+			<key>midiData</key>
+			<integer>70</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2</string>
+			<key>midiChannel</key>
+			<integer>3</integer>
+			<key>midiData</key>
+			<integer>0</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+			<key>modifier</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2</string>
+			<key>midiChannel</key>
+			<integer>4</integer>
+			<key>midiData</key>
+			<integer>79</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2</string>
+			<key>midiChannel</key>
+			<integer>5</integer>
+			<key>midiData</key>
+			<integer>79</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2</string>
+			<key>midiChannel</key>
+			<integer>4</integer>
+			<key>midiData</key>
+			<integer>71</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2</string>
+			<key>midiChannel</key>
+			<integer>4</integer>
+			<key>midiData</key>
+			<integer>83</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2</string>
+			<key>midiChannel</key>
+			<integer>5</integer>
+			<key>midiData</key>
+			<integer>83</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2</string>
+			<key>midiChannel</key>
+			<integer>5</integer>
+			<key>midiData</key>
+			<integer>79</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+			<key>modifier</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2</string>
+			<key>midiChannel</key>
+			<integer>3</integer>
+			<key>midiData</key>
+			<integer>1</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+			<key>modifier</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2</string>
+			<key>midiChannel</key>
+			<integer>3</integer>
+			<key>midiData</key>
+			<integer>5</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+			<key>modifier</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2</string>
+			<key>midiChannel</key>
+			<integer>3</integer>
+			<key>midiData</key>
+			<integer>4</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+			<key>modifier</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2</string>
+			<key>midiChannel</key>
+			<integer>3</integer>
+			<key>midiData</key>
+			<integer>3</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+			<key>modifier</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2</string>
+			<key>midiChannel</key>
+			<integer>3</integer>
+			<key>midiData</key>
+			<integer>7</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+			<key>modifier</key>
+			<true/>
 		</dict>
 	</array>
 	<key>editor</key>
