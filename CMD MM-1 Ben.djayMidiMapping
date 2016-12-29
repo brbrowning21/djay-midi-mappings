@@ -525,7 +525,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable3.pitchBendMinus</string>
+			<string>turntable3</string>
 			<key>midiChannel</key>
 			<integer>4</integer>
 			<key>midiData</key>
@@ -537,7 +537,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable3.pitchBendPlus</string>
+			<string>turntable3</string>
 			<key>midiChannel</key>
 			<integer>4</integer>
 			<key>midiData</key>
@@ -549,7 +549,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable1.pitchBendMinus</string>
+			<string>turntable1</string>
 			<key>midiChannel</key>
 			<integer>4</integer>
 			<key>midiData</key>
@@ -561,7 +561,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable1.pitchBendPlus</string>
+			<string>turntable1</string>
 			<key>midiChannel</key>
 			<integer>4</integer>
 			<key>midiData</key>
@@ -573,7 +573,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable2.pitchBendMinus</string>
+			<string>turntable2</string>
 			<key>midiChannel</key>
 			<integer>4</integer>
 			<key>midiData</key>
@@ -585,7 +585,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable2.pitchBendPlus</string>
+			<string>turntable2</string>
 			<key>midiChannel</key>
 			<integer>4</integer>
 			<key>midiData</key>
@@ -597,7 +597,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable4.pitchBendMinus</string>
+			<string>turntable4</string>
 			<key>midiChannel</key>
 			<integer>4</integer>
 			<key>midiData</key>
@@ -609,7 +609,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable4.pitchBendPlus</string>
+			<string>turntable4</string>
 			<key>midiChannel</key>
 			<integer>4</integer>
 			<key>midiData</key>
