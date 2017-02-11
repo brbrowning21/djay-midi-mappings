@@ -8,23 +8,6 @@
 	<array>
 		<dict>
 			<key>controlType</key>
-			<string>button</string>
-			<key>keyPath</key>
-			<string>turntable3.playPause</string>
-			<key>midiChannel</key>
-			<integer>1</integer>
-			<key>midiData</key>
-			<integer>12</integer>
-			<key>midiMessageType</key>
-			<integer>3</integer>
-			<key>output</key>
-			<dict>
-				<key>midiMaxValue</key>
-				<integer>45</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>controlType</key>
 			<string>rotary-64</string>
 			<key>keyPath</key>
 			<string>turntable3.scratchingMove</string>
@@ -77,23 +60,6 @@
 			<integer>4</integer>
 			<key>midiMessageType</key>
 			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>controlType</key>
-			<string>button</string>
-			<key>keyPath</key>
-			<string>turntable1.playPause</string>
-			<key>midiChannel</key>
-			<integer>1</integer>
-			<key>midiData</key>
-			<integer>13</integer>
-			<key>midiMessageType</key>
-			<integer>3</integer>
-			<key>output</key>
-			<dict>
-				<key>midiMaxValue</key>
-				<integer>45</integer>
-			</dict>
 		</dict>
 		<dict>
 			<key>controlType</key>
@@ -152,23 +118,6 @@
 		</dict>
 		<dict>
 			<key>controlType</key>
-			<string>button</string>
-			<key>keyPath</key>
-			<string>turntable2.playPause</string>
-			<key>midiChannel</key>
-			<integer>1</integer>
-			<key>midiData</key>
-			<integer>14</integer>
-			<key>midiMessageType</key>
-			<integer>3</integer>
-			<key>output</key>
-			<dict>
-				<key>midiMaxValue</key>
-				<integer>45</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>controlType</key>
 			<string>rotary-64</string>
 			<key>keyPath</key>
 			<string>turntable2.scratchingMove</string>
@@ -220,23 +169,6 @@
 				<true/>
 				<key>midiMaxValue</key>
 				<integer>100</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>controlType</key>
-			<string>button</string>
-			<key>keyPath</key>
-			<string>turntable4.playPause</string>
-			<key>midiChannel</key>
-			<integer>1</integer>
-			<key>midiData</key>
-			<integer>15</integer>
-			<key>midiMessageType</key>
-			<integer>3</integer>
-			<key>output</key>
-			<dict>
-				<key>midiMaxValue</key>
-				<integer>45</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -328,7 +260,7 @@
 			<key>controlType</key>
 			<string>rotary-64</string>
 			<key>keyPath</key>
-			<string>turntable4</string>
+			<string>turntable2</string>
 			<key>midiChannel</key>
 			<integer>0</integer>
 			<key>midiData</key>
@@ -352,7 +284,7 @@
 			<key>controlType</key>
 			<string>rotary-64</string>
 			<key>keyPath</key>
-			<string>turntable4</string>
+			<string>turntable3</string>
 			<key>midiChannel</key>
 			<integer>0</integer>
 			<key>midiData</key>
@@ -417,6 +349,122 @@
 			<integer>14</integer>
 			<key>midiMessageType</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable4</string>
+			<key>midiChannel</key>
+			<integer>4</integer>
+			<key>midiData</key>
+			<integer>12</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>controlType</key>
+			<string>button</string>
+			<key>keyPath</key>
+			<string>turntable3.bpmSync</string>
+			<key>midiChannel</key>
+			<integer>1</integer>
+			<key>midiData</key>
+			<integer>12</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+			<key>output</key>
+			<dict/>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable4</string>
+			<key>midiChannel</key>
+			<integer>0</integer>
+			<key>midiData</key>
+			<integer>13</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable4</string>
+			<key>midiChannel</key>
+			<integer>4</integer>
+			<key>midiData</key>
+			<integer>13</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable4</string>
+			<key>midiChannel</key>
+			<integer>0</integer>
+			<key>midiData</key>
+			<integer>12</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>controlType</key>
+			<string>button</string>
+			<key>keyPath</key>
+			<string>turntable1.bpmSync</string>
+			<key>midiChannel</key>
+			<integer>1</integer>
+			<key>midiData</key>
+			<integer>13</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+			<key>output</key>
+			<dict/>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable4</string>
+			<key>midiChannel</key>
+			<integer>0</integer>
+			<key>midiData</key>
+			<integer>15</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>controlType</key>
+			<string>button</string>
+			<key>keyPath</key>
+			<string>turntable4.bpmSync</string>
+			<key>midiChannel</key>
+			<integer>1</integer>
+			<key>midiData</key>
+			<integer>15</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+			<key>output</key>
+			<dict/>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable4</string>
+			<key>midiChannel</key>
+			<integer>4</integer>
+			<key>midiData</key>
+			<integer>15</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>controlType</key>
+			<string>button</string>
+			<key>keyPath</key>
+			<string>turntable2.bpmSync</string>
+			<key>midiChannel</key>
+			<integer>1</integer>
+			<key>midiData</key>
+			<integer>14</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+			<key>output</key>
+			<dict/>
 		</dict>
 	</array>
 	<key>editor</key>
