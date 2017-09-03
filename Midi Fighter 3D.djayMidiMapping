@@ -248,14 +248,11 @@
 			<key>midiMessageType</key>
 			<integer>1</integer>
 			<key>output</key>
-			<dict>
-				<key>midiMaxValue</key>
-				<integer>18</integer>
-			</dict>
+			<dict/>
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>application.modifier</string>
+			<string>turntable1.playPause</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -263,14 +260,11 @@
 			<key>midiMessageType</key>
 			<integer>1</integer>
 			<key>output</key>
-			<dict>
-				<key>midiMaxValue</key>
-				<integer>18</integer>
-			</dict>
+			<dict/>
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>application.modifier</string>
+			<string>turntable2.playPause</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -278,10 +272,7 @@
 			<key>midiMessageType</key>
 			<integer>1</integer>
 			<key>output</key>
-			<dict>
-				<key>midiMaxValue</key>
-				<integer>18</integer>
-			</dict>
+			<dict/>
 		</dict>
 		<dict>
 			<key>keyPath</key>
@@ -293,14 +284,11 @@
 			<key>midiMessageType</key>
 			<integer>1</integer>
 			<key>output</key>
-			<dict>
-				<key>midiMaxValue</key>
-				<integer>18</integer>
-			</dict>
+			<dict/>
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable3.cueOrJumpIfAlreadySet3</string>
+			<string>turntable1.cueOrJumpIfAlreadySet3</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -312,7 +300,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable1.cueOrJumpIfAlreadySet3</string>
+			<string>turntable1.cuePositionOrJumpConsideringPlayState1</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -324,7 +312,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable2.cueOrJumpIfAlreadySet3</string>
+			<string>turntable2.cuePositionOrJumpConsideringPlayState1</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -336,7 +324,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable4.cueOrJumpIfAlreadySet3</string>
+			<string>turntable2.cueOrJumpIfAlreadySet3</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -348,7 +336,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable3.cueOrJumpIfAlreadySet2</string>
+			<string>turntable1.cueOrJumpIfAlreadySet2</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -360,7 +348,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable1.cueOrJumpIfAlreadySet2</string>
+			<string>turntable1.loopOutAndReloopOrUnloop</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -372,7 +360,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable2.cueOrJumpIfAlreadySet2</string>
+			<string>turntable2.loopOutAndReloopOrUnloop</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -384,7 +372,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable4.cueOrJumpIfAlreadySet2</string>
+			<string>turntable2.cueOrJumpIfAlreadySet2</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -396,7 +384,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable3.cueOrJumpIfAlreadySet1</string>
+			<string>turntable1.cueOrJumpIfAlreadySet1</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -408,7 +396,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable1.cueOrJumpIfAlreadySet1</string>
+			<string>turntable1.loopIn</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -420,7 +408,17 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable2.cueOrJumpIfAlreadySet1</string>
+			<string>turntable1.startPoint</string>
+			<key>midiChannel</key>
+			<integer>2</integer>
+			<key>midiData</key>
+			<integer>65</integer>
+			<key>midiMessageType</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2.loopIn</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -432,7 +430,17 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable4.cueOrJumpIfAlreadySet1</string>
+			<string>turntable2.startPoint</string>
+			<key>midiChannel</key>
+			<integer>2</integer>
+			<key>midiData</key>
+			<integer>66</integer>
+			<key>midiMessageType</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable2.cueOrJumpIfAlreadySet1</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -564,13 +572,15 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable3</string>
+			<string>sampler.toggleSamplerShown</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
 			<integer>80</integer>
 			<key>midiMessageType</key>
 			<integer>1</integer>
+			<key>output</key>
+			<dict/>
 		</dict>
 		<dict>
 			<key>keyPath</key>
@@ -1032,7 +1042,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable3.clearCuePoint1</string>
+			<string>turntable1.clearCuePoint1</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -1044,7 +1054,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable4.clearCuePoint1</string>
+			<string>turntable2.clearCuePoint1</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -1080,7 +1090,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable3.clearCuePoint2</string>
+			<string>turntable1.clearCuePoint2</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -1092,7 +1102,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable4.clearCuePoint2</string>
+			<string>turntable2.clearCuePoint2</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -1128,7 +1138,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable3.clearCuePoint3</string>
+			<string>turntable1.clearCuePoint3</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -1140,7 +1150,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable4.clearCuePoint3</string>
+			<string>turntable2.clearCuePoint3</string>
 			<key>midiChannel</key>
 			<integer>2</integer>
 			<key>midiData</key>
@@ -1159,6 +1169,78 @@
 			<integer>0</integer>
 			<key>midiMessageType</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable4</string>
+			<key>midiChannel</key>
+			<integer>3</integer>
+			<key>midiData</key>
+			<integer>39</integer>
+			<key>midiMessageType</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable4</string>
+			<key>midiChannel</key>
+			<integer>3</integer>
+			<key>midiData</key>
+			<integer>38</integer>
+			<key>midiMessageType</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable4</string>
+			<key>midiChannel</key>
+			<integer>3</integer>
+			<key>midiData</key>
+			<integer>40</integer>
+			<key>midiMessageType</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable4</string>
+			<key>midiChannel</key>
+			<integer>3</integer>
+			<key>midiData</key>
+			<integer>42</integer>
+			<key>midiMessageType</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable4</string>
+			<key>midiChannel</key>
+			<integer>3</integer>
+			<key>midiData</key>
+			<integer>43</integer>
+			<key>midiMessageType</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable4</string>
+			<key>midiChannel</key>
+			<integer>3</integer>
+			<key>midiData</key>
+			<integer>41</integer>
+			<key>midiMessageType</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable4</string>
+			<key>midiChannel</key>
+			<integer>2</integer>
+			<key>midiData</key>
+			<integer>54</integer>
+			<key>midiMessageType</key>
+			<integer>1</integer>
+			<key>modifier</key>
+			<true/>
 		</dict>
 	</array>
 	<key>editor</key>
