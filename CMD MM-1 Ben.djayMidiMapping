@@ -657,9 +657,19 @@
 			<key>modifier</key>
 			<true/>
 		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>mixer.crossfade</string>
+			<key>midiChannel</key>
+			<integer>4</integer>
+			<key>midiData</key>
+			<integer>64</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+		</dict>
 	</array>
 	<key>editor</key>
-	<string>djay Pro-1.4.2</string>
+	<string>djay Pro-1.4.3</string>
 	<key>endpointName</key>
 	<string>CMD MM-1</string>
 	<key>schemeVersion</key>
