@@ -494,10 +494,8 @@
 			<integer>3</integer>
 		</dict>
 		<dict>
-			<key>flipped</key>
-			<true/>
 			<key>keyPath</key>
-			<string>application.startStopDelay</string>
+			<string>sampler.volume</string>
 			<key>midiChannel</key>
 			<integer>4</integer>
 			<key>midiData</key>
