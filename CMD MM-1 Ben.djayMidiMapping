@@ -381,6 +381,8 @@
 			<integer>1</integer>
 			<key>output</key>
 			<dict>
+				<key>flipped</key>
+				<true/>
 				<key>midiMaxValue</key>
 				<integer>1</integer>
 			</dict>
@@ -411,6 +413,8 @@
 			<integer>1</integer>
 			<key>output</key>
 			<dict>
+				<key>flipped</key>
+				<true/>
 				<key>midiMaxValue</key>
 				<integer>1</integer>
 			</dict>
@@ -425,7 +429,10 @@
 			<key>midiMessageType</key>
 			<integer>1</integer>
 			<key>output</key>
-			<dict/>
+			<dict>
+				<key>midiMaxValue</key>
+				<integer>1</integer>
+			</dict>
 		</dict>
 		<dict>
 			<key>keyPath</key>
@@ -438,6 +445,8 @@
 			<integer>1</integer>
 			<key>output</key>
 			<dict>
+				<key>flipped</key>
+				<true/>
 				<key>midiMaxValue</key>
 				<integer>1</integer>
 			</dict>
@@ -452,7 +461,10 @@
 			<key>midiMessageType</key>
 			<integer>1</integer>
 			<key>output</key>
-			<dict/>
+			<dict>
+				<key>midiMaxValue</key>
+				<integer>1</integer>
+			</dict>
 		</dict>
 		<dict>
 			<key>keyPath</key>
@@ -465,13 +477,15 @@
 			<integer>1</integer>
 			<key>output</key>
 			<dict>
+				<key>flipped</key>
+				<true/>
 				<key>midiMaxValue</key>
 				<integer>1</integer>
 			</dict>
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable4</string>
+			<string>mixer.masterLevel</string>
 			<key>midiChannel</key>
 			<integer>4</integer>
 			<key>midiData</key>
@@ -480,8 +494,10 @@
 			<integer>3</integer>
 		</dict>
 		<dict>
+			<key>flipped</key>
+			<true/>
 			<key>keyPath</key>
-			<string>turntable4</string>
+			<string>application.startStopDelay</string>
 			<key>midiChannel</key>
 			<integer>4</integer>
 			<key>midiData</key>
@@ -669,7 +685,7 @@
 		</dict>
 	</array>
 	<key>editor</key>
-	<string>djay Pro-1.4.3</string>
+	<string>djay Pro 2-2.0.4</string>
 	<key>endpointName</key>
 	<string>CMD MM-1</string>
 	<key>schemeVersion</key>
