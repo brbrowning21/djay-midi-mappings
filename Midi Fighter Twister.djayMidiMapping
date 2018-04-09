@@ -215,8 +215,8 @@
 			<real>180</real>
 		</dict>
 		<dict>
-			<key>controlType</key>
-			<string>rotary-64</string>
+			<key>flipped</key>
+			<true/>
 			<key>keyPath</key>
 			<string>turntable3.speed</string>
 			<key>midiChannel</key>
@@ -225,13 +225,8 @@
 			<integer>4</integer>
 			<key>midiMessageType</key>
 			<integer>3</integer>
-			<key>output</key>
-			<dict>
-				<key>flipped</key>
-				<true/>
-				<key>midiChannel</key>
-				<integer>1</integer>
-			</dict>
+			<key>pickupMode</key>
+			<true/>
 			<key>rotarySensitivity</key>
 			<real>20</real>
 		</dict>
@@ -246,6 +241,11 @@
 			<integer>4</integer>
 			<key>midiMessageType</key>
 			<integer>3</integer>
+			<key>output</key>
+			<dict>
+				<key>flipped</key>
+				<true/>
+			</dict>
 		</dict>
 		<dict>
 			<key>controlType</key>
@@ -260,8 +260,8 @@
 			<integer>3</integer>
 		</dict>
 		<dict>
-			<key>controlType</key>
-			<string>rotary-64</string>
+			<key>flipped</key>
+			<true/>
 			<key>keyPath</key>
 			<string>turntable1.speed</string>
 			<key>midiChannel</key>
@@ -270,13 +270,8 @@
 			<integer>5</integer>
 			<key>midiMessageType</key>
 			<integer>3</integer>
-			<key>output</key>
-			<dict>
-				<key>flipped</key>
-				<true/>
-				<key>midiChannel</key>
-				<integer>1</integer>
-			</dict>
+			<key>pickupMode</key>
+			<true/>
 			<key>rotarySensitivity</key>
 			<real>20</real>
 		</dict>
@@ -291,22 +286,17 @@
 			<integer>5</integer>
 			<key>midiMessageType</key>
 			<integer>3</integer>
+			<key>output</key>
+			<dict>
+				<key>flipped</key>
+				<true/>
+				<key>midiChannel</key>
+				<integer>1</integer>
+			</dict>
 		</dict>
 		<dict>
-			<key>controlType</key>
-			<string>rotary-64</string>
-			<key>keyPath</key>
-			<string>turntable1.libraryRotary</string>
-			<key>midiChannel</key>
-			<integer>4</integer>
-			<key>midiData</key>
-			<integer>5</integer>
-			<key>midiMessageType</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>controlType</key>
-			<string>rotary-64</string>
+			<key>flipped</key>
+			<true/>
 			<key>keyPath</key>
 			<string>turntable2.speed</string>
 			<key>midiChannel</key>
@@ -315,13 +305,8 @@
 			<integer>6</integer>
 			<key>midiMessageType</key>
 			<integer>3</integer>
-			<key>output</key>
-			<dict>
-				<key>flipped</key>
-				<true/>
-				<key>midiChannel</key>
-				<integer>1</integer>
-			</dict>
+			<key>pickupMode</key>
+			<true/>
 			<key>rotarySensitivity</key>
 			<real>20</real>
 		</dict>
@@ -336,6 +321,13 @@
 			<integer>6</integer>
 			<key>midiMessageType</key>
 			<integer>3</integer>
+			<key>output</key>
+			<dict>
+				<key>flipped</key>
+				<true/>
+				<key>midiChannel</key>
+				<integer>1</integer>
+			</dict>
 		</dict>
 		<dict>
 			<key>controlType</key>
@@ -350,8 +342,8 @@
 			<integer>3</integer>
 		</dict>
 		<dict>
-			<key>controlType</key>
-			<string>rotary-64</string>
+			<key>flipped</key>
+			<true/>
 			<key>keyPath</key>
 			<string>turntable4.speed</string>
 			<key>midiChannel</key>
@@ -360,13 +352,8 @@
 			<integer>7</integer>
 			<key>midiMessageType</key>
 			<integer>3</integer>
-			<key>output</key>
-			<dict>
-				<key>flipped</key>
-				<true/>
-				<key>midiChannel</key>
-				<integer>1</integer>
-			</dict>
+			<key>pickupMode</key>
+			<true/>
 			<key>rotarySensitivity</key>
 			<real>20</real>
 		</dict>
@@ -381,6 +368,11 @@
 			<integer>7</integer>
 			<key>midiMessageType</key>
 			<integer>3</integer>
+			<key>output</key>
+			<dict>
+				<key>flipped</key>
+				<true/>
+			</dict>
 		</dict>
 		<dict>
 			<key>controlType</key>
@@ -445,6 +437,8 @@
 			<integer>9</integer>
 			<key>midiMessageType</key>
 			<integer>3</integer>
+			<key>output</key>
+			<dict/>
 		</dict>
 		<dict>
 			<key>controlType</key>
@@ -836,9 +830,65 @@
 			<key>midiMessageType</key>
 			<integer>3</integer>
 		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable1</string>
+			<key>midiChannel</key>
+			<integer>4</integer>
+			<key>midiData</key>
+			<integer>5</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable1</string>
+			<key>midiChannel</key>
+			<integer>3</integer>
+			<key>midiData</key>
+			<integer>0</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>controlType</key>
+			<string>button</string>
+			<key>keyPath</key>
+			<string>turntable1</string>
+			<key>midiChannel</key>
+			<integer>3</integer>
+			<key>midiData</key>
+			<integer>1</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>controlType</key>
+			<string>button</string>
+			<key>keyPath</key>
+			<string>turntable1</string>
+			<key>midiChannel</key>
+			<integer>3</integer>
+			<key>midiData</key>
+			<integer>2</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>controlType</key>
+			<string>button</string>
+			<key>keyPath</key>
+			<string>turntable1</string>
+			<key>midiChannel</key>
+			<integer>3</integer>
+			<key>midiData</key>
+			<integer>3</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+		</dict>
 	</array>
 	<key>editor</key>
-	<string>djay Pro-1.3.1</string>
+	<string>djay Pro 2-2.0.4</string>
 	<key>endpointName</key>
 	<string>Midi Fighter Twister</string>
 	<key>schemeVersion</key>
