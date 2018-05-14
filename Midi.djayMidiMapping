@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>controls</key>
+	<array>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable1.cueOrJumpIfAlreadySet1</string>
+			<key>midiChannel</key>
+			<integer>0</integer>
+			<key>midiData</key>
+			<integer>36</integer>
+			<key>midiMessageType</key>
+			<integer>1</integer>
+			<key>output</key>
+			<dict>
+				<key>keyPath</key>
+				<string>modifierState.modifier1</string>
+				<key>midiMaxValue</key>
+				<integer>64</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>condition</key>
+			<string>modifier1 == 0</string>
+			<key>keyPath</key>
+			<string>turntable1.cueOrJumpIfAlreadySet2</string>
+			<key>midiChannel</key>
+			<integer>0</integer>
+			<key>midiData</key>
+			<integer>37</integer>
+			<key>midiMessageType</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>condition</key>
+			<string>modifier1 == 1</string>
+			<key>keyPath</key>
+			<string>turntable1.cueOrJumpIfAlreadySet3</string>
+			<key>midiChannel</key>
+			<integer>0</integer>
+			<key>midiData</key>
+			<integer>37</integer>
+			<key>midiMessageType</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>editor</key>
+	<string>djay Pro 2-2.0.4</string>
+	<key>endpointName</key>
+	<string>MidiPipe</string>
+	<key>schemeVersion</key>
+	<integer>1</integer>
+	<key>version</key>
+	<integer>0</integer>
+</dict>
+</plist>

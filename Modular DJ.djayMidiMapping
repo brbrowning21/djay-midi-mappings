@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>controls</key>
+	<array>
+		<dict>
+			<key>controlType</key>
+			<string>rotary-64</string>
+			<key>keyPath</key>
+			<string>turntable1.skipRotary</string>
+			<key>midiChannel</key>
+			<integer>0</integer>
+			<key>midiData</key>
+			<integer>48</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable1.cuePositionOrJumpConsideringPlayState1</string>
+			<key>midiChannel</key>
+			<integer>0</integer>
+			<key>midiData</key>
+			<integer>48</integer>
+			<key>midiMessageType</key>
+			<integer>1</integer>
+			<key>output</key>
+			<dict/>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>musicLibrary</string>
+			<key>midiChannel</key>
+			<integer>0</integer>
+			<key>midiData</key>
+			<integer>50</integer>
+			<key>midiMessageType</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>editor</key>
+	<string>djay Pro 2-2.0.4</string>
+	<key>endpointName</key>
+	<string>Modular DJ</string>
+	<key>outputs</key>
+	<array>
+		<dict>
+			<key>controlType</key>
+			<string>control</string>
+			<key>keyPath</key>
+			<string>turntable1.monoMeter</string>
+			<key>midiChannel</key>
+			<integer>0</integer>
+			<key>midiData</key>
+			<integer>64</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+		</dict>
+	<key>schemeVersion</key>
+	<integer>1</integer>
+	<key>version</key>
+	<integer>0</integer>
+</dict>
+</plist>
