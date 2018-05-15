@@ -57,6 +57,7 @@
 			<key>midiMessageType</key>
 			<integer>3</integer>
 		</dict>
+	</array>
 	<key>schemeVersion</key>
 	<integer>1</integer>
 	<key>version</key>
