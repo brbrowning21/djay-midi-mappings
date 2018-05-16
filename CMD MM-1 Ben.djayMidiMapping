@@ -686,6 +686,41 @@
 	<string>djay Pro 2-2.0.4</string>
 	<key>endpointName</key>
 	<string>CMD MM-1</string>
+	<key>outputs</key>
+	<array>
+		<dict>
+			<key>controlType</key>
+			<string>control</string>
+			<key>keyPath</key>
+			<string>mixer.masterLeftMeter</string>
+			<key>midiChannel</key>
+			<integer>4</integer>
+			<key>midiData</key>
+			<integer>80</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+			<key>midiMinValue</key>
+			<integer>48</integer>
+			<key>midiMaxValue</key>
+			<integer>63</integer>
+		</dict>
+		<dict>
+			<key>controlType</key>
+			<string>control</string>
+			<key>keyPath</key>
+			<string>mixer.masterRightMeter</string>
+			<key>midiChannel</key>
+			<integer>4</integer>
+			<key>midiData</key>
+			<integer>81</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+			<key>midiMinValue</key>
+			<integer>48</integer>
+			<key>midiMaxValue</key>
+			<integer>63</integer>
+		</dict>
+	</array>
 	<key>schemeVersion</key>
 	<integer>1</integer>
 	<key>version</key>
