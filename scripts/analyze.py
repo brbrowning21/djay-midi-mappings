@@ -1,22 +1,36 @@
-import lxml.etree as ET
 import os
 import glob
+import plistlib
+import csv
+
 
 filepaths = [
     '/Applications/djay Pro 2.app/Contents/Resources/MIDI Mappings',
-    '/Users/brbrowning21/Music/djay Pro 2/MIDI Mappings'
+    # '/Users/brbrowning21/Music/djay Pro 2/MIDI Mappings'
 ]
+
+csvfile = open('outputcsv.csv', 'w', newline='')
+fieldnames = [
+    'filename',
+    'hidElementKey',
+    'keyPath',
+    'controlType',
+    'midiChannel',
+    'midiData',
+    'midiMessageType',
+    'midiMaxValue',
+    'midiMinValue',
+    'flipped'
+]
+writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+writer.writeheader()
 
 for path in filepaths:
     for xml_file in glob.glob(path + '/*.djayMidiMapping'):
-        xml = ET.parse(xml_file)
-        root = xml.getroot()
-        keys = root[0].findall('key')
-        for key in keys:
-            if key.text == 'outputs':
-                # print(xml_file)
-                outputs = key.getnext()
-                for output_dict in outputs:
-                    for dict_key in output_dict.findall('key'):
-                        if dict_key.text == 'keyPath':
-                            print(dict_key.getnext().text)
+        p = plistlib.load(open(xml_file, 'rb'))
+
+        if 'outputs' in p:
+            for o in p['outputs']:
+                o['filename'] = xml_file
+                writer.writerow(o)
+

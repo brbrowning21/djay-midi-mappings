@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>USBID</key>
+	<integer>330432576</integer>
+	<key>controls</key>
+	<array>
+		<dict>
+			<key>midiChannel</key>
+			<integer>1</integer>
+			<key>midiData</key>
+			<integer>124</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>midiChannel</key>
+			<integer>1</integer>
+			<key>midiData</key>
+			<integer>127</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>keyPath</key>
+			<string>turntable1</string>
+			<key>midiChannel</key>
+			<integer>1</integer>
+			<key>midiData</key>
+			<integer>48</integer>
+			<key>midiMessageType</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>midiChannel</key>
+			<integer>1</integer>
+			<key>midiData</key>
+			<integer>123</integer>
+			<key>midiMessageType</key>
+			<integer>3</integer>
+		</dict>
+	</array>
+	<key>editor</key>
+	<string>djay Pro-1.4.3</string>
+	<key>endpointName</key>
+	<string>USB2MIDI</string>
+	<key>schemeVersion</key>
+	<integer>1</integer>
+	<key>version</key>
+	<integer>0</integer>
+</dict>
+</plist>
